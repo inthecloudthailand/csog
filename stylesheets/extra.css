@@ -23,12 +23,3 @@
   margin-left: 20px; 
 }
 }
-
-@font-face {
-  font-family: "Boon";
-  src: "Boon-Regular.woff2";
-}
-
-:root {
-  --md-text-font: "Boon"; 
-}
