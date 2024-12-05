@@ -8,26 +8,28 @@
       
       
       
-        <link rel="canonical" href="https://inthecloud.co.th/cog/">
+        <link rel="canonical" href="https://inthecloud.co.th/cog/ms/azure/Deploy%20an%20Azure%20Kubernetes%20Service%20%28AKS%29%20cluster%20using%20Azure%20portal/">
       
       
+        <link rel="prev" href="../Connect%20hybrid%20machines%20with%20Azure%20Arc-enabled%20servers/">
       
-        <link rel="next" href="ms/azure/Connect%20hybrid%20machines%20with%20Azure%20Arc-enabled%20servers/">
+      
+        <link rel="next" href="../../defender/Pilot%20and%20deploy%20Microsoft%20Defender%20for%20Identity/">
       
       
-      <link rel="icon" href="assets/images/favicon.png">
+      <link rel="icon" href="../../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.24">
     
     
       
-        <title>In the Cloud</title>
+        <title>Deploy an Azure Kubernetes Service (AKS) cluster using Azure portal - In the Cloud</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.6543a935.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.6543a935.min.css">
       
         
-        <link rel="stylesheet" href="assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -46,9 +48,9 @@
       
     
     
-      <link rel="stylesheet" href="stylesheets/extra.css">
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
     
-    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -71,11 +73,6 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
-        
-        <a href="#csog-customer-self-onboarding-guides" class="md-skip">
-          Skip to content
-        </a>
-      
     </div>
     <div data-md-component="announce">
       
@@ -86,9 +83,9 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="." title="In the Cloud" class="md-header__button md-logo" aria-label="In the Cloud" data-md-component="logo">
+    <a href="../../.." title="In the Cloud" class="md-header__button md-logo" aria-label="In the Cloud" data-md-component="logo">
       
-  <img src="assets/logo.png" alt="logo">
+  <img src="../../../assets/logo.png" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -105,7 +102,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Home
+              Deploy an Azure Kubernetes Service (AKS) cluster using Azure portal
             
           </span>
         </div>
@@ -172,11 +169,9 @@
         
   
   
-    
   
-  
-    <li class="md-tabs__item md-tabs__item--active">
-      <a href="." class="md-tabs__link">
+    <li class="md-tabs__item">
+      <a href="../../.." class="md-tabs__link">
         
   
     
@@ -191,11 +186,13 @@
         
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="ms/azure/Connect%20hybrid%20machines%20with%20Azure%20Arc-enabled%20servers/" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../Connect%20hybrid%20machines%20with%20Azure%20Arc-enabled%20servers/" class="md-tabs__link">
           
   
   Azure
@@ -213,7 +210,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="ms/defender/Pilot%20and%20deploy%20Microsoft%20Defender%20for%20Identity/" class="md-tabs__link">
+        <a href="../../defender/Pilot%20and%20deploy%20Microsoft%20Defender%20for%20Identity/" class="md-tabs__link">
           
   
   Defender
@@ -231,7 +228,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="ms/defender/Pilot%20and%20deploy%20Microsoft%20Defender%20for%20Identity/" class="md-tabs__link">
+        <a href="../../defender/Pilot%20and%20deploy%20Microsoft%20Defender%20for%20Identity/" class="md-tabs__link">
           
   
   Entra
@@ -249,7 +246,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="ms/defender/Pilot%20and%20deploy%20Microsoft%20Defender%20for%20Identity/" class="md-tabs__link">
+        <a href="../../defender/Pilot%20and%20deploy%20Microsoft%20Defender%20for%20Identity/" class="md-tabs__link">
           
   
   Exchange
@@ -267,7 +264,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="ms/defender/Pilot%20and%20deploy%20Microsoft%20Defender%20for%20Identity/" class="md-tabs__link">
+        <a href="../../defender/Pilot%20and%20deploy%20Microsoft%20Defender%20for%20Identity/" class="md-tabs__link">
           
   
   Intune
@@ -285,7 +282,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="ms/defender/Pilot%20and%20deploy%20Microsoft%20Defender%20for%20Identity/" class="md-tabs__link">
+        <a href="../../defender/Pilot%20and%20deploy%20Microsoft%20Defender%20for%20Identity/" class="md-tabs__link">
           
   
   Purview
@@ -303,7 +300,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="ms/defender/Pilot%20and%20deploy%20Microsoft%20Defender%20for%20Identity/" class="md-tabs__link">
+        <a href="../../defender/Pilot%20and%20deploy%20Microsoft%20Defender%20for%20Identity/" class="md-tabs__link">
           
   
   Windows
@@ -336,9 +333,9 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="In the Cloud" class="md-nav__button md-logo" aria-label="In the Cloud" data-md-component="logo">
+    <a href="../../.." title="In the Cloud" class="md-nav__button md-logo" aria-label="In the Cloud" data-md-component="logo">
       
-  <img src="assets/logo.png" alt="logo">
+  <img src="../../../assets/logo.png" alt="logo">
 
     </a>
     In the Cloud
@@ -350,19 +347,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="." class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -371,7 +359,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -380,23 +367,28 @@
       
   
   
+    
   
   
+  
     
     
     
-      
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
-          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
             
   
   <span class="md-ellipsis">
@@ -407,7 +399,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             Azure
@@ -421,7 +413,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ms/azure/Connect%20hybrid%20machines%20with%20Azure%20Arc-enabled%20servers/" class="md-nav__link">
+      <a href="../Connect%20hybrid%20machines%20with%20Azure%20Arc-enabled%20servers/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -439,10 +431,17 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="ms/azure/Deploy%20an%20Azure%20Kubernetes%20Service%20%28AKS%29%20cluster%20using%20Azure%20portal/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -451,6 +450,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -508,7 +508,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ms/defender/Pilot%20and%20deploy%20Microsoft%20Defender%20for%20Identity/" class="md-nav__link">
+      <a href="../../defender/Pilot%20and%20deploy%20Microsoft%20Defender%20for%20Identity/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -574,7 +574,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ms/defender/Pilot%20and%20deploy%20Microsoft%20Defender%20for%20Identity/" class="md-nav__link">
+      <a href="../../defender/Pilot%20and%20deploy%20Microsoft%20Defender%20for%20Identity/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -640,7 +640,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ms/defender/Pilot%20and%20deploy%20Microsoft%20Defender%20for%20Identity/" class="md-nav__link">
+      <a href="../../defender/Pilot%20and%20deploy%20Microsoft%20Defender%20for%20Identity/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -706,7 +706,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ms/defender/Pilot%20and%20deploy%20Microsoft%20Defender%20for%20Identity/" class="md-nav__link">
+      <a href="../../defender/Pilot%20and%20deploy%20Microsoft%20Defender%20for%20Identity/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -772,7 +772,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ms/defender/Pilot%20and%20deploy%20Microsoft%20Defender%20for%20Identity/" class="md-nav__link">
+      <a href="../../defender/Pilot%20and%20deploy%20Microsoft%20Defender%20for%20Identity/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -838,7 +838,7 @@
   
   
     <li class="md-nav__item">
-      <a href="ms/defender/Pilot%20and%20deploy%20Microsoft%20Defender%20for%20Identity/" class="md-nav__link">
+      <a href="../../defender/Pilot%20and%20deploy%20Microsoft%20Defender%20for%20Identity/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -876,8 +876,6 @@
   
   
   
-    
-  
   
 </nav>
                   </div>
@@ -892,10 +890,9 @@
                   
 
 
-<p><img alt="alt text" src="windows-AigsWJmvoEo-unsplash-1.jpg" /></p>
-<h1 id="csog-customer-self-onboarding-guides">CSoG - Customer Self-onboarding Guides</h1>
-<p>คู่มือการ onboard user และ device ต่างๆ ขึ้นไปยัง Microsoft 365 และ Azure services ด้วยตนเอง</p>
-<p><a href="https://inthecloud.co.th">In the Cloud (Thailand) Co., Ltd.</a></p>
+  <h1>Deploy an Azure Kubernetes Service (AKS) cluster using Azure portal</h1>
+
+
 
 
 
@@ -948,10 +945,10 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": ".", "features": ["navigation.tabs", "navigation.path", "navigation.top"], "search": "assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.tabs", "navigation.path", "navigation.top"], "search": "../../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="assets/javascripts/bundle.081f42fc.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.081f42fc.min.js"></script>
       
     
   </body>
