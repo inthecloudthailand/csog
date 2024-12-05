@@ -18,12 +18,12 @@
   font-size: 15px;
 }
 
-/*@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
 .md-grid {
-  margin-right: 20px;
-  margin-left: 20px; 
+  margin-right: 10px;
+  margin-left: 10px; 
 }
-}*/
+}
 
 .md-header--shadow {
   box-shadow: 0 0 .2rem #ffffffff, 0 .2rem .4rem #ffff;
@@ -31,9 +31,9 @@
 }
 
 :root, [data-md-color-scheme=default] {
-  --md-footer-fg-color: #B2BEB5;
-  --md-footer-fg-color--light: #B2BEB5;
-  --md-footer-fg-color--lighter: #B2BEB5;
+  --md-footer-fg-color: #6495ED;
+  --md-footer-fg-color--light: #6495ED;
+  --md-footer-fg-color--lighter: #6495ED;
   --md-footer-bg-color: #ffff;
   --md-footer-bg-color--dark: #ffff;
 }
