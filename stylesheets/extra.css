@@ -29,7 +29,7 @@
   transition: transform .25s cubic-bezier(.1,.7,.1,1), box-shadow .25s;
 }
 
-:root {
+:root, [data-md-color-scheme=default] {
   --md-footer-bg-color: #ffffffff;
   --md-footer-fg-color: #000;
 }
