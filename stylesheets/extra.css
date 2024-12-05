@@ -31,9 +31,9 @@
 }
 
 :root, [data-md-color-scheme=default] {
-  --md-footer-fg-color: #647c90;
-  --md-footer-fg-color--light: #647c90;
-  --md-footer-fg-color--lighter: #647c90;
+  --md-footer-fg-color: #B2BEB5;
+  --md-footer-fg-color--light: #B2BEB5;
+  --md-footer-fg-color--lighter: #B2BEB5;
   --md-footer-bg-color: #ffff;
   --md-footer-bg-color--dark: #ffff;
 }
