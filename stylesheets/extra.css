@@ -1,6 +1,10 @@
-.md-typeset p {
+/*.md-typeset p {
     font-size: 16px;
     color: #808080;
+}*/
+
+.md-typeset p {
+  font-size: 16px;
 }
 
 /*.md-typeset h1 {
