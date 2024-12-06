@@ -21,7 +21,12 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://inthecloud.co.th/cog/ms/entraid/Microsoft%20Entra%20hybrid%20join%20targeted%20deployment/</loc>
+         <loc>https://inthecloud.co.th/cog/ms/entra/Microsoft-Entra-hybrid-join-targeted-deployment/</loc>
+         <lastmod>2024-12-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://inthecloud.co.th/cog/ms/exchange/Configure-email-authentication-for-your-Microsoft-365-domains/</loc>
          <lastmod>2024-12-06</lastmod>
          <changefreq>daily</changefreq>
     </url>

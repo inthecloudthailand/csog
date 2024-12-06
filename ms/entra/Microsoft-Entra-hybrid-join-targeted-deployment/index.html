@@ -8,13 +8,13 @@
       
       
       
-        <link rel="canonical" href="https://inthecloud.co.th/cog/ms/azure/Connect-hybrid-machines-with-Azure-Arc-enabled-servers/">
+        <link rel="canonical" href="https://inthecloud.co.th/cog/ms/entra/Microsoft-Entra-hybrid-join-targeted-deployment/">
       
       
-        <link rel="prev" href="../../..">
+        <link rel="prev" href="../../azure/Connect-hybrid-machines-with-Azure-Arc-enabled-servers/">
       
       
-        <link rel="next" href="../../entra/Microsoft-Entra-hybrid-join-targeted-deployment/">
+        <link rel="next" href="../../exchange/Configure-email-authentication-for-your-Microsoft-365-domains/">
       
       
       <link rel="icon" href="../../../assets/images/favicon.png">
@@ -22,7 +22,7 @@
     
     
       
-        <title>Connect hybrid machines with Azure Arc-enabled servers - In the Cloud</title>
+        <title>Microsoft Entra hybrid join targeted deployment.md - In the Cloud</title>
       
     
     
@@ -73,6 +73,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#pilot-and-deploy-microsoft-defender-for-identity" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -102,7 +107,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Connect hybrid machines with Azure Arc-enabled servers
+              Microsoft Entra hybrid join targeted deployment.md
             
           </span>
         </div>
@@ -200,7 +205,7 @@
     
     
       <li class="md-tabs__item md-tabs__item--active">
-        <a href="./" class="md-tabs__link">
+        <a href="../../azure/Connect-hybrid-machines-with-Azure-Arc-enabled-servers/" class="md-tabs__link">
           
   
   Microsoft
@@ -313,8 +318,6 @@
                 
   
   
-    
-  
   
   
     
@@ -324,11 +327,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1" >
         
           
           <label class="md-nav__link" for="__nav_2_1" id="__nav_2_1_label" tabindex="0">
@@ -342,7 +345,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_1_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_1_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2_1">
             <span class="md-nav__icon md-icon"></span>
             Azure
@@ -353,17 +356,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../azure/Connect-hybrid-machines-with-Azure-Arc-enabled-servers/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -372,7 +368,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -390,6 +385,8 @@
                 
   
   
+    
+  
   
   
     
@@ -399,11 +396,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" checked>
         
           
           <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
@@ -417,7 +414,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2_2">
             <span class="md-nav__icon md-icon"></span>
             Entra
@@ -428,10 +425,30 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../entra/Microsoft-Entra-hybrid-join-targeted-deployment/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Microsoft Entra hybrid join targeted deployment.md
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -440,6 +457,44 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-initialize-defender-for-identity-instance" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Initialize Defender for Identity instance
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-install-the-defender-for-identity-sensor" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Install the Defender for Identity sensor
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -544,6 +599,34 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-initialize-defender-for-identity-instance" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Initialize Defender for Identity instance
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-install-the-defender-for-identity-sensor" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Install the Defender for Identity sensor
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -558,9 +641,21 @@
                   
 
 
-  <h1>Connect hybrid machines with Azure Arc-enabled servers</h1>
-
-<p>ทดสอบ</p>
+<h1 id="pilot-and-deploy-microsoft-defender-for-identity">Pilot and deploy Microsoft Defender for Identity</h1>
+<h2 id="1-initialize-defender-for-identity-instance">1. Initialize Defender for Identity instance</h2>
+<p>1. ถ้าเรามี license ที่สามารถใช้ Defender for Identity ได้ ก็จะเห็น Identities</p>
+<p>ให้เรากดเข้าไป</p>
+<p><img alt="alt text" src="image-9.png" /></p>
+<p>2. เมื่อกดครั้งแรก ระบบจะ initialize Defender for Identity instance ให้เรา</p>
+<p><img alt="alt text" src="image-10.png" /></p>
+<p>รอสักพัก หน้านี้ก็จะปรากฏขึ้นมา</p>
+<p><img alt="alt text" src="image-8.png" /></p>
+<h2 id="2-install-the-defender-for-identity-sensor">2. Install the Defender for Identity sensor</h2>
+<p>จากนั้นให้กด Add sensor เพื่อ download มาติดตั้ง</p>
+<p><img alt="alt text" src="image-7.png" /></p>
+<p>และเริ่มติดตั้ง</p>
+<p><img alt="alt text" src="image-4.png" /></p>
+<p>Ref. https://learn.microsoft.com/en-us/defender-xdr/pilot-deploy-defender-identity</p>
 
 
 
