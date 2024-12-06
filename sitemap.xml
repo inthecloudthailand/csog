@@ -6,12 +6,12 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://inthecloud.co.th/cog/ms/azure/Deploy-AKS/</loc>
+         <loc>https://inthecloud.co.th/cog/ms/azure/</loc>
          <lastmod>2024-12-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://inthecloud.co.th/cog/ms/azure/arc-enabled-servers/</loc>
+         <loc>https://inthecloud.co.th/cog/ms/azure/Connect-hybrid-machines-with-Azure-Arc-enabled-servers/</loc>
          <lastmod>2024-12-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
