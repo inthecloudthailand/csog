@@ -1,11 +1,11 @@
-/*.md-typeset p {
-    font-size: 16px;
-    color: #36454F;
-}*/
-
 .md-typeset p {
-  font-size: 16px;
+    font-size: 16px;
+    color: #343434;
 }
+
+/*.md-typeset p {
+  font-size: 16px;
+}*/
 
 /*.md-typeset h1 {
     font-weight: bold;
